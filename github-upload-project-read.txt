@@ -1,0 +1,6 @@
+1、在github上创建项目
+2、在本地创建项目
+3、$ ssh -T git@github.com 验证与github的是否可连接，如果不能连接就把本地的ssh public key添加到github上
+4、关联远程和本地仓库，$ git remote add origin git@github.com:yourName/yourRepo.git 
+5、关联分支，git branch --set-upstream-to=origin/<branch> localbranch
+6、push commit
